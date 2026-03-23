@@ -8,7 +8,7 @@ I used pynput to capture the keys and pyautogui to take a inital screenshot of t
 
 Then I made the keylogger slightly more complicated so where if it detected an @gmail.com it would send an alert of an email and any characters and words it detected near the email it would mark as a potential password and send it. 
 
-This allowed me to have a little fun while practicing my python skills for the next part of the project. 
+I then used Pyinstaller to make a convinient one click executable file and It ran as expected 
 
 ## Step two - understanding the viruses network packets 
 
