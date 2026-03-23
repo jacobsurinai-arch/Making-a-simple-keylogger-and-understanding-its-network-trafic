@@ -8,7 +8,7 @@ I used pynput to capture the keys and pyautogui to take a inital screenshot of t
 
 Then I made the keylogger slightly more complicated so where if it detected an @gmail.com it would send an alert of an email and any characters and words it detected near the email it would mark as a potential password and send it. 
 
-This allowed me to have a little fin while practicing my python skills for the next part of the project. 
+This allowed me to have a little fun while practicing my python skills for the next part of the project. 
 
 ## Step two - understanding the viruses network packets 
 
@@ -16,5 +16,14 @@ After creating the virus I wanted to isolate it on a virtual machine using Vitua
 
 I then learned afrer some resaerch how to filter dns packets to get what I was looking for.
 
-I the ran the virus and saw some discord apcets sending immediately after.
+I the ran the virus and saw some discord dns packets sending immediately after.
 
+This taught me some things to look for when analyzing trafic 
+
+## What I learned 
+
+From this small project I learned how to use Wireshark to understand how network packets flow through my Network
+
+I learned How to use virtualbox and configure an isolated windows machine 
+
+I also improved upon my Python knowlage base and learned how to use the Pynput, DiscordWebhook, and Pyautogui librarys as well as learning how to use pyinstaller to convert the pythin script into a exe 
