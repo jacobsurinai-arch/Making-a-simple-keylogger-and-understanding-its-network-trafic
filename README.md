@@ -11,3 +11,10 @@ Then I made the keylogger slightly more complicated so where if it detected an @
 This allowed me to have a little fin while practicing my python skills for the next part of the project. 
 
 ## Step two - understanding the viruses network packets 
+
+After creating the virus I wanted to isolate it on a virtual machine using Vitual Box and downloaded wireshark on a windows machine.
+
+I then learned afrer some resaerch how to filter dns packets to get what I was looking for.
+
+I the ran the virus and saw some discord apcets sending immediately after.
+
