@@ -10,11 +10,15 @@ Then I made the keylogger slightly more complicated so where if it detected an @
 
 I then used Pyinstaller to make a convinient one click executable file and It ran as expected 
 
+![Screenshot 2026-03-23 230053](https://github.com/user-attachments/assets/090c602a-8254-4241-a31f-7c174bbaed73)
+
 ## Step two - understanding the viruses network packets 
 
 After creating the virus I wanted to isolate it on a virtual machine using Vitual Box and downloaded wireshark on a windows machine.
 
 I then learned afrer some resaerch how to filter dns packets to get what I was looking for.
+
+<img width="700" height="380" alt="Screenshot 2026-03-23 231158" src="https://github.com/user-attachments/assets/ca7daf5c-f67d-452a-bd19-6f6328eef9e1" />
 
 I the ran the virus and saw some discord dns packets sending immediately after.
 
